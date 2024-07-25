@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../style.css">
+        <script src="../app.js" async defer></script>
+    </head>
+    <body>
+        <!-- navbar -->
+            <!-- logo -->
+            <!-- title -->
+            <!-- home button -->
+            <!-- projects button -->
+            <!-- contact button -->
+            <div class="navbar">
+                <a href="/pages/home.html">
+                <div class="logoContainer">
+                    <img src="/img/Black_wings.svg" alt="" class="logo">
+                    <h1 class="site-name">code-angel.com</h1>
+                </div>
+                </a>
+                
+                <button class="navBtn">
+                    <a href="/pages/home.html">
+                    <h2>Home<span class="blink">_</span></h2>
+                    </a>
+                </button>
+                <div class="vline"></div>
+                <button class="navBtn">
+                    <a href="/pages/projects.html">
+                    <h2>Projects<span class="blink">_</span></h2>
+                    </a>
+                </button>
+                <div class="vline"></div>
+                <button class="navBtn">
+                    <a href="/pages/contact.html">
+                    <h2>Contact Me<span class="blink">_</span></h2>
+                    </a>
+                </button>
+            </div>
+        
+        <!-- social links table -->
+            <!-- My Website < You are Here -->
+            <!-- LinkedIn -->
+            <!-- GitHub -->
+        <h2>My Links</h2>
+        <table class="link-table">
+            <tr>
+                <th>My Site</th>
+                <th>LinkedIn</th>
+                <th>GitHub</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://code-angel.com">
+                        <div class="logoContainer">
+                        <img src="/img/Black_wings.svg" alt="code angel logo" class="logo">
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.linkedin.com/in/sarah-j-wong/">
+                        <div class="logoContainer">
+                            <img src="/img/linkedin.svg" alt="LinkedIn logo" class="logo">
+                        </div>
+                    </a>
+                </td>
+                <td>
+                    <a href="https://github.com/PerScholarSarah">
+                        <div class="logoContainer">
+                            <img src="/img/github.svg" alt="GitHub Logo" class="logo">
+                        </div>
+                    </a>
+                </td>
+            </tr>
+        </table>
+        
+        <!-- contact form -->
+            <!-- header -->
+            <!-- info -->
+                <!-- name -->
+                <!-- email -->
+                <!-- organization -->
+            <!-- "I am a..." radio menu -->
+                <!-- Recruiter -->
+                <!-- Client -->
+                <!-- Fan -->
+                <!-- Other (specify) -->
+            <!-- "Reaching out because..." paragraph field -->
+            <!-- submit button -->
+        <h2>Contact Me</h2>
+        <div class="contact-form">
+            <fieldset class="multi-text">
+                <legend>Info:</legend>
+                <label for="contact-name"> Name:
+                    <input type="text" name="contact-name" id="contact-name">
+                </label>
+                <br><br>
+                <label for="contact-email">Email:
+                    <input type="email" name="contact-email" id="contact-email">
+                </label>
+                <br><br>
+                <label for="contact-org">Organization:
+                    <input type="text" name="contact-org" id="contact-org">
+                </label>
+            </fieldset>
+            <fieldset class="radio-menu">
+                <legend>I am a...</legend>Recruiter
+                <label for="recruiter-option">
+                    <input type="radio" name="recruiter-option" id="recruiter-option">
+                </label>
+                <br>
+                <label for="client-option">Client
+                    <input type="radio" name="client-option" id="client-option">
+                </label>
+                <br>
+                <label for="fan-option">Fan
+                    <input type="radio" name="fan-option" id="fan-option">
+                </label>
+                <br>
+                <label for="other-option">Other (specify)
+                    <input type="radio" name="other-option" id="other-option">
+                    <br>
+                    <input type="text" name="other-specify" id="other-specify">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Reaching out because...</legend>
+                <textarea name="reaching-out" id="reaching-out" class="contact-text-area" rows="6" cols="40"></textarea>
+            </fieldset>
+        </div>
+        <button class="contact-submit"type="submit">Submit</button>
+
+        <!-- footer -->
+            <!-- privacy policy -->
+            <!-- attributions -->
+            <!-- feet pics -->
+            <div class="footer">
+                <p>COPYRIGHT ©2024 Sarah J. Wong</p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Attributions</a>
+                <a href="https://tinyurl.com/wrybtp4e">Feet Pics?</a>
+            </div>
+    </body>
+</html>
